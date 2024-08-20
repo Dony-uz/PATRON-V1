@@ -2651,7 +2651,8 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
             //Menu
             case "patronmenu":
             case "help":
-            case "bluemenu":
+            case "menu":
+            case "blue":
               {
                 //text menu
                 let njing = `
@@ -2702,7 +2703,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
                           text: "",
                         },
                         footer: {
-                          text: "𝙱𝙻𝚄𝙴🌀𝙳𝙴𝙼𝙾𝙽 ",
+                          text: "𝙿𝙰𝚃𝚁𝙾𝙽 & 𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽 ",
                         },
                         nativeFlowMessage: {
                           buttons: [
@@ -2790,7 +2791,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
                           text: "",
                         },
                         footer: {
-                          text: " PATRON 🚹 & 𝙱𝙻𝚄𝙴 🌀 𝙳𝙴𝙼𝙾𝙽",
+                          text: " 𝙿𝙰𝚃𝚁𝙾𝙽 & 𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽",
                         },
                         nativeFlowMessage: {
                           buttons: [
@@ -3120,7 +3121,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
                           text: "",
                         },
                         footer: {
-                          text: "𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽",
+                          text: "𝙿𝙰𝚃𝚁𝙾𝙽 & 𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽",
                         },
                         nativeFlowMessage: {
                           buttons: [
@@ -3163,7 +3164,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
                           text: "",
                         },
                         footer: {
-                          text: "*𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽*",
+                          text: "*𝙿𝙰𝚃𝚁𝙾𝙽 & 𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽*",
                         },
                         nativeFlowMessage: {
                           buttons: [
@@ -3280,7 +3281,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
                           isForwarded: true,
                           forwardedNewsletterMessageInfo: {
                             newsletterJid: "0@newsletter",
-                            newsletterName: "PATRON 🚹 & 𝙱𝙻𝚄𝙴 🌀 𝙳𝙴𝙼𝙾𝙽 ",
+                            newsletterName: "𝙿𝙰𝚃𝚁𝙾𝙽 & 𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽",
                             serverMessageId: 1,
                           },
                         },
@@ -3323,7 +3324,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
                           isForwarded: true,
                           forwardedNewsletterMessageInfo: {
                             newsletterJid: "0@newsletter",
-                            newsletterName: "PATRON 🚹 & 𝙱𝙻𝚄𝙴 🌀 𝙳𝙴𝙼𝙾𝙽",
+                            newsletterName: "𝙿𝙰𝚃𝚁𝙾𝙽 & 𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽",
                             serverMessageId: 1,
                           },
                         },
@@ -3339,7 +3340,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
                           text: "",
                         },
                         footer: {
-                          text: "PATRON 🚹 & BLUE DEMON",
+                          text: "𝙿𝙰𝚃𝚁𝙾𝙽 & BLUE DEMON",
                         },
                         nativeFlowMessage: {
                           buttons: [
@@ -3406,7 +3407,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
                           isForwarded: true,
                           forwardedNewsletterMessageInfo: {
                             newsletterJid: "0@newsletter",
-                            newsletterName: "PATRON 🚹 & 𝙱𝙻𝚄𝙴 🌀 𝙳𝙴𝙼𝙾𝙽",
+                            newsletterName: "𝙿𝙰𝚃𝚁𝙾𝙽 & 𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽",
                             serverMessageId: 1,
                           },
                         },
@@ -3580,7 +3581,10 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
             case "sc":
             case "script":
               {
-                joreply(`𝚸𝚫𝚻𝚪𝚯𝚴 𝛁1 𝚩𝐔𝐆 SCRIPT 👇
+                ryozingod.sendMessage(
+                  m.chat,
+                  {
+                    text: `𝚸𝚫𝚻𝚪𝚯𝚴 𝛁1 𝚩𝐔𝐆 SCRIPT 👇
 
 🌐 *_Git:_* https://github.com/Itzpatron/PATRON-V1
 
@@ -3588,7 +3592,12 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
 
 🪀 *_Channel:_* https://whatsapp.com/channel/0029Val0s0rIt5rsIDPCoD2q
 
-🚹 *_The Devs:_* https://t.me/textpatron_bot and https://tinyurl.com/2xrw69su`);
+🚹 *_The Devs:_* https://t.me/textpatron_bot and https://tinyurl.com/2xrw69su
+
+🙇🏽‍♂️ *_Panel Deployment:_* https://youtu.be/ELsmTeFsHsI?si=-SP-FDYaels_0zEO`,
+                  },
+                  { quoted: m }
+                );
               }
               break;
             //=================================================//
@@ -3733,7 +3742,7 @@ Hi
               {
                 ryozingod.sendMessage(
                   m.chat,
-                  { text: `*ALL HAILS TO PATRON & 𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽 *` },
+                  { text: `*ALL HAILS TO 𝙿𝙰𝚃𝚁𝙾𝙽 & 𝙱𝙻𝚄𝙴 𝙳𝙴𝙼𝙾𝙽*` },
                   { quoted: m }
                 );
               }

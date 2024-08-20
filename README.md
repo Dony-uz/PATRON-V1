@@ -34,10 +34,13 @@ TESTING GROUP: <a href="https://chat.whatsapp.com/HSC7DAJOD9nBKbl7CmxxLb"><img a
 
 
 
-2. Get Session ID (Server 1)
+2. Get Cred.json 
    
     
-     <a href='[https://replit.com/@asmakev/Classic-Pairing?s=app](https://replit.com/@Itzpatron/Patron-Pairing)' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+     <a href='https://replit.com/@Itzpatron/Patron-Pairing' target="_blank"><img alt='CRED JSON' src='https://img.shields.io/badge/Cred.json-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
+## Watch Tutorial videos.
+* [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-PANEL-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/ELsmTeFsHsI?si=-SP-FDYaels_0zEO)
 
 
 #### DEPLOY TO CODESPACE
@@ -82,11 +85,12 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 #### DEPLOY TO PANEL
 1. Fork the repo
 2. Edit then Download your forked repo zip
-2. 🖥 Go to panel and upload your Sc.
-3. extract or move it to a directory (container).
-4. ⌨ Use the following code to move into a container: "../"
-5. Delete the cred.json in the session folder.
-6. Then go to the console and press Start.
+3. 🖥 Go to panel and upload your Sc.
+4. Delete the cred file from the session then start console
+5. Extract or move it to a directory (container).
+6. ⌨ Use the following code to move into a container: "../"
+7. Then go to the console and press Start.
+
    
 - Note: I recommend using starter + or higher for a fast bot
 
@@ -95,6 +99,10 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 if you don't have a Render account. Create an account.
    <br>
    <p align="center"><a href="https://dashboard.render.com/"> <img src="https://img.shields.io/badge/Render account-grey?style=for-the-badge&logo=render" width="220" height="38.45"/></a></p>
+
+#### DEPLOY TO Koyeb
+
+Koyeb method aint available for now
 
 
 #### COPY THESE COMMANDS AND PASTE IF YOU TRYING TO DEPLOY [PATRON-V1](https://github.com/Itzpatron/PATRON-V1) ON ANY TERMINAL
@@ -126,6 +134,54 @@ git clone https://github.com/type-your-username-here/PATRON-V1
 ```
 cd PATRON-V1
 yarn install 
+npm start
+```
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+# Termux Deployment
+```
+termux-setup-storage
+```
+```
+apt update
+```
+```
+apt upgrade
+```
+```
+pkg update && pkg upgrade
+```
+```
+pkg install bash
+```
+```
+pkg install libwebp
+```
+```
+pkg install git -y
+```
+```
+pkg install nodejs -y
+```
+```
+pkg install ffmpeg -y 
+```
+```
+pkg install wget
+```
+```
+pkg install yarn
+```
+```
+git clone (copy and paste your forked repo link not mine to save changes your changes) 
+```
+```
+cd Venom-2
+```
+```
+yarn install
+```
+```
 npm start
 ```
 
